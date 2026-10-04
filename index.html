@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+
+<meta name="google-site-verification" content="Y_pqkkyWInCtXMt9rzywRTVgekuup8ESAZxe_FPcGJk" />
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Personal Website</title>
 
@@ -20,7 +23,6 @@ body{
   transition:.4s;
 }
 
-/* HEADER */
 header{
   text-align:center;
   padding:45px 20px;
@@ -37,7 +39,6 @@ header p{
   font-size:18px;
 }
 
-/* NAVIGATION */
 nav{
   display:flex;
   justify-content:center;
@@ -52,8 +53,7 @@ nav{
   box-shadow:0 3px 15px rgba(0,0,0,.1);
 }
 
-nav a,
-#darkModeBtn{
+nav a,#darkModeBtn{
   text-decoration:none;
   color:#333;
   background:linear-gradient(135deg,#dbeafe,#fce7f3);
@@ -65,12 +65,10 @@ nav a,
   transition:.3s;
 }
 
-nav a:hover,
-#darkModeBtn:hover{
+nav a:hover,#darkModeBtn:hover{
   transform:translateY(-3px);
 }
 
-/* SECTIONS */
 section{
   max-width:1100px;
   margin:50px auto;
@@ -84,7 +82,6 @@ section h2{
   color:#6d28d9;
 }
 
-/* HOME */
 .home-box{
   text-align:center;
 }
@@ -109,7 +106,6 @@ section h2{
   line-height:1.7;
 }
 
-/* ABOUT */
 .about-box{
   display:flex;
   align-items:center;
@@ -136,7 +132,6 @@ section h2{
   margin-bottom:15px;
 }
 
-/* SKILLS */
 .skill{
   margin:25px 0;
 }
@@ -162,19 +157,10 @@ section h2{
   background:linear-gradient(90deg,#3b82f6,#8b5cf6,#ec4899);
 }
 
-.html-skill{
-  width:90%;
-}
+.html-skill{width:90%}
+.css-skill{width:80%}
+.js-skill{width:70%}
 
-.css-skill{
-  width:80%;
-}
-
-.js-skill{
-  width:70%;
-}
-
-/* PROJECTS */
 .projects{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
@@ -212,7 +198,6 @@ section h2{
   line-height:1.6;
 }
 
-/* FAQ */
 .faq-item{
   background:white;
   margin:15px 0;
@@ -233,7 +218,6 @@ section h2{
   line-height:1.6;
 }
 
-/* CONTACT */
 .contact-form{
   max-width:650px;
   margin:auto;
@@ -300,7 +284,6 @@ section h2{
   margin-bottom:15px;
 }
 
-/* OPINION */
 .opinion-box{
   background:white;
   padding:30px;
@@ -342,7 +325,6 @@ section h2{
   font-weight:bold;
 }
 
-/* FUN FACTS */
 .facts{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
@@ -363,7 +345,6 @@ section h2{
   transform:scale(1.04);
 }
 
-/* TOP BUTTON */
 #topBtn{
   position:fixed;
   right:20px;
@@ -378,7 +359,6 @@ section h2{
   font-size:18px;
 }
 
-/* FOOTER */
 footer{
   text-align:center;
   padding:30px;
@@ -387,7 +367,6 @@ footer{
   margin-top:50px;
 }
 
-/* DARK MODE */
 body.dark{
   background:#111827;
   color:#f9fafb;
@@ -428,7 +407,6 @@ body.dark .fact-card{
   background:#374151;
 }
 
-/* MOBILE */
 @media(max-width:600px){
 
   header h1{
@@ -487,8 +465,7 @@ body.dark .fact-card{
 
     <img
       src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=900&q=80"
-      alt="Coding workspace"
-    >
+      alt="Coding workspace">
 
     <h2>Hello! 👋</h2>
 
@@ -509,12 +486,11 @@ body.dark .fact-card{
 
     <img
       src="https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=800&q=80"
-      alt="Person"
-    >
+      alt="Person">
 
     <div class="about-text">
 
-      <p>Hi! My name is <strong>My Name</strong> 👋</p>
+      <p>Hi! My name is <strong>Lena</strong> 👋</p>
 
       <p>
         I love learning new things and creating
@@ -527,6 +503,7 @@ body.dark .fact-card{
       </p>
 
     </div>
+
   </div>
 
 </section>
@@ -586,8 +563,7 @@ body.dark .fact-card{
 
       <img
         src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80"
-        alt="Website project"
-      >
+        alt="Website project">
 
       <div class="project-content">
 
@@ -599,14 +575,14 @@ body.dark .fact-card{
         </p>
 
       </div>
+
     </div>
 
     <div class="project-card">
 
       <img
         src="https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80"
-        alt="Design project"
-      >
+        alt="Design project">
 
       <div class="project-content">
 
@@ -618,14 +594,14 @@ body.dark .fact-card{
         </p>
 
       </div>
+
     </div>
 
     <div class="project-card">
 
       <img
         src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80"
-        alt="Technology project"
-      >
+        alt="Technology project">
 
       <div class="project-content">
 
@@ -637,6 +613,7 @@ body.dark .fact-card{
         </p>
 
       </div>
+
     </div>
 
   </div>
@@ -701,8 +678,7 @@ body.dark .fact-card{
         type="text"
         id="name"
         placeholder="Enter your name"
-        required
-      >
+        required>
 
       <label for="email">My Email</label>
 
@@ -710,16 +686,14 @@ body.dark .fact-card{
         type="email"
         id="email"
         placeholder="Enter your email"
-        required
-      >
+        required>
 
       <label for="message">My Message</label>
 
       <textarea
         id="message"
         placeholder="Write your message..."
-        required
-      ></textarea>
+        required></textarea>
 
       <button class="send-btn" type="submit">
         📩 Send Message
@@ -809,8 +783,7 @@ body.dark .fact-card{
 
         <input
           type="text"
-          placeholder="Write your answer..."
-        >
+          placeholder="Write your answer...">
 
       </div>
 
@@ -820,8 +793,7 @@ body.dark .fact-card{
 
         <input
           type="text"
-          placeholder="Write your answer..."
-        >
+          placeholder="Write your answer...">
 
       </div>
 
@@ -871,8 +843,8 @@ body.dark .fact-card{
 
 <footer>
 
-  <p>Made with 💙💗💜 by Me</p>
-  <p>© 2026 My Personal Website</p>
+  <p>Made with 💙💗💜 by Lena</p>
+  <p>© 2026 Lena's Personal Website</p>
 
 </footer>
 
@@ -880,7 +852,6 @@ body.dark .fact-card{
 
 <script>
 
-/* DARK MODE */
 function toggleDarkMode(){
 
   document.body.classList.toggle("dark");
@@ -903,7 +874,6 @@ function toggleDarkMode(){
 
 }
 
-/* LOAD DARK MODE */
 window.onload=function(){
 
   if(localStorage.getItem("darkMode")==="on"){
@@ -917,7 +887,6 @@ window.onload=function(){
 
 };
 
-/* FAQ */
 function toggleFAQ(question){
 
   const answer=question.nextElementSibling;
@@ -934,7 +903,6 @@ function toggleFAQ(question){
 
 }
 
-/* CONTACT */
 const contactForm=document.getElementById("contactForm");
 
 contactForm.addEventListener("submit",function(event){
@@ -955,7 +923,6 @@ function goBack(){
 
 }
 
-/* OPINION */
 const opinionForm=document.getElementById("opinionForm");
 
 opinionForm.addEventListener("submit",function(event){
@@ -968,7 +935,6 @@ opinionForm.addEventListener("submit",function(event){
 
 });
 
-/* TOP BUTTON */
 window.onscroll=function(){
 
   const topBtn=document.getElementById("topBtn");
